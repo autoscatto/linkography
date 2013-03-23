@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://linkography/skin/overlay.css" type="text/css" ?>
+<!-- ***** BEGIN LICENSE BLOCK *****
+-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+-                    Version 2, December 2004
+-
+- Copyright (C) 2004 Sam Hocevar
+- 22 rue de Plaisance, 75014 Paris, France
+- Everyone is permitted to copy and distribute verbatim or modified
+- copies of this license document, and changing it is allowed as long
+- as the name is changed.
+-
+-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+-
+-  0. You just DO WHAT THE FUCK YOU WANT TO.
+-
+- ***** END LICENSE BLOCK ***** -->
+<overlay id="messengerWindow" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="overlay.js" />
+
+  <keyset>
+    <key id="tblatex-run" modifiers="accel shift" key="L" oncommand="Linkography.dialog()"/>
+  </keyset>
+
+  <toolbarpalette id="MsgComposeToolbarPalette">
+    <toolbarbutton id="linkography-button"
+      class="toolbarbutton-1"
+      label="Linkography"
+      type="button"
+      tooltiptext="Insert a link"
+      oncommand="Linkography.dialog()"
+      />
+  </toolbarpalette>
+</overlay>

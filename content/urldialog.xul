@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://messenger/skin/dialogs.css" type="text/css"?>
+<?xml-stylesheet href="chrome://linkography/skin/overlay.css" type="text/css" ?>
+<dialog id="url-insert"
+  title="Linkography"
+  buttons="accept,cancel"
+  ondialogaccept="return click_(true);"
+  ondialogcancel="return click_(false);"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="text/javascript" src="chrome://linkography/content/urldialog.js"/>
+<label control="some-text" value="Enter url"/> <textbox id="urlo" flex="1"/>
+<!-- <checkbox id="gtitle" label="Get title" checked="false"/> -->
+</dialog>

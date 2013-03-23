@@ -1,0 +1,8 @@
+content linkography content/
+skin linkography classic/1.0 skin/
+style chrome://global/content/customizeToolbar.xul chrome://linkography/skin/overlay.css
+overlay chrome://messenger/content/messenger.xul chrome://linkography/content/overlay.xul
+#message-composing window
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://linkography/content/overlay.xul
+#button
+overlay chrome://global/content/customizeToolbar.xul chrome://linkography/content/overlay.xul
