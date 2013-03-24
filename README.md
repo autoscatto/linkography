@@ -1,6 +1,6 @@
 ![Logo](https://raw.github.com/autoscatto/linkography/master/skin/icon.png "Logo") linkography
 ===========
-
+- - -
 Thunderbird extension, add ordered and numbered link in your mail.
 
 My first extension. Suffers from all the classic problems of youth, is arrogant and dirty. I added a small todo list, probably unnecessarily.
@@ -8,11 +8,11 @@ It's impossible to automatically add buttons to the toolbar. On your first run, 
 
 - [x] first, minimally functional version
 - [ ] code review, search for elegance
-- [ ] add the possibility to retrieve the title of the url
+- [ ] add possibility to retrieve the title of the url
 - [ ] converting to bootstrapped extension
 
 
-Licence
+License
 -------
                DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                        Version 2, December 2004
