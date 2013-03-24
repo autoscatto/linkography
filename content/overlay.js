@@ -10,7 +10,6 @@
 
 var counter = (function() {var n = 0; return function() { return n++; };})(); //closure is the new flunitrazepam
 
-
 var Linkography = {
     do: function (u) {
       if(u != null && u != ''){
